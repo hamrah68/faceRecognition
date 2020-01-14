@@ -12,7 +12,7 @@ const Register = ({ onRouteChange, loadUser }) => {
     if (name === "" || password === "" || email === "") {
       setErrorRegister("تمامی فیلدها الزامی هستند.");
     } else {
-      fetch("http://localhost:3000/register", {
+      fetch("https://quiet-dusk-55757.herokuapp.com/register", {
         method: "post",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
