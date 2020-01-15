@@ -31,10 +31,9 @@ const particlesOptions = {
   //   }
   // }
 }
-//https://i2-prod.mirror.co.uk/incoming/article14334083.ece/ALTERNATES/s810/3_Beautiful-girl-with-a-gentle-smile.jpg
 
 const App = () => {
-  const [input, setInput] = useState('');
+  const [input, setInput] = useState('https://i2-prod.mirror.co.uk/incoming/article14334083.ece/ALTERNATES/s810/3_Beautiful-girl-with-a-gentle-smile.jpg');
   const [imageUrl, setImageUrl] = useState('empty');
   const [box, setBox] = useState({});
   const [route, setRoute] = useState('signin');
@@ -50,7 +49,7 @@ const App = () => {
   })
 
   const setStateToDefault = () => {
-    setInput('');
+    setInput('https://i2-prod.mirror.co.uk/incoming/article14334083.ece/ALTERNATES/s810/3_Beautiful-girl-with-a-gentle-smile.jpg');
     setImageUrl('empty');
     setBox({});
     setRoute('signin');
